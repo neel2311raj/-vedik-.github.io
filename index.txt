@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VEDIK Jewellery</title>
+  <style>
+    /* Reset & basic typography */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+    a { color: inherit; text-decoration: none; }
+
+    /* Header / Logo */
+    header {
+      background: #f8f8f8;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    header img { max-width: 200px; height: auto; }
+
+    /* Gallery */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      display: block;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Contact Section */
+    .contact {
+      background: #f0f0f0;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .contact h2 { margin-bottom: 15px; }
+    .contact p { margin-bottom: 8px; }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logo Header -->
+  <header>
+    <!-- Replace src with your actual logo file -->
+    <img src="logo.png" alt="VEDIK Jewellery Logo">
+  </header>
+
+  <!-- Jewellery Gallery -->
+  <section class="gallery">
+    <!-- Replace src with your jewellery image files -->
+    <img src="jewellery1.jpg" alt="Gold Necklace">
+    <img src="jewellery2.jpg" alt="Diamond Ring">
+    <img src="jewellery3.jpg" alt="Pearl Earrings">
+    <img src="jewellery4.jpg" alt="Silver Bracelet">
+  </section>
+
+  <!-- Contact Information -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> +1 (555) 123‑4567</p>
+    <p><strong>Email:</strong> info@vedikjewellery.com</p>
+    <p><strong>Address:</strong> 123 Gemstone Avenue, New York, NY</p>
+  </section>
+
+  <footer>
+    &copy; 2025 VEDIK Jewellery. All rights reserved.
+  </footer>
+
+</body>
+</html>
